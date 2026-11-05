@@ -1,0 +1,13 @@
+[package]
+name = "rs-van-emde-boas"
+version = "1.0.0"
+edition = "2021"
+description = "van Emde Boas tree with O(log log U) operations"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-van-emde-boas"
+keywords = ["rust", "van-emde-boas", "data-structures", "algorithms", "integer"]
+
+[[bin]]
+name = "rs_van_emde_boas"
+path = "main.rs"
